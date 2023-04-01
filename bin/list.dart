@@ -12,4 +12,8 @@ void main() {
 
   var ddd = [1, 2, 3, 4, 5];
   print(ddd);
+
+  print(ddd[1]);
+  ddd.removeAt(2);
+  print(ddd);
 }
